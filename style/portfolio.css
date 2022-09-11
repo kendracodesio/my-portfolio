@@ -34,7 +34,7 @@ h2 {
   font-size: 22px;
   font-weight: 400;
   font-family: var(--font-default);
-  color: rgb(62, 62, 62);
+  color: rgb(62, 62, 62, 0.855);
   
 }
 
@@ -44,8 +44,7 @@ h2 {
 }
 
 .featured {
-  font-size: 40px;
-  margin-top: 50px;
+  font-size: 42px;
 }
 
 h4 {
@@ -88,7 +87,7 @@ h4 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  height: 340px;
+  max-height: 340px;
   background: #fff;
  
 
@@ -102,6 +101,7 @@ padding: 10px;
   background: var(--background-color);
   border-radius: 4px;
   height: 400px;
+  max-width: 600px;
   
 
 }
@@ -109,11 +109,12 @@ padding: 10px;
 .project-paragraph {
   line-height: 1.75;
   font-size: 18px;
+  color: rgba(62, 62, 62, 0.855);
  
 }
 
 .project-text {
-  max-width: 550px;
+  max-width: 600px;
   margin: auto;
 }
 
