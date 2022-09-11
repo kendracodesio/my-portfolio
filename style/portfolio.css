@@ -19,12 +19,12 @@ body {
   padding-top: 230px;
   padding-bottom: 120px;
   background: var(--background-color); 
+  margin-bottom: 120px;
  
 }
 
 h1 {
   font-size: 80px;
-  font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.5;
 
@@ -38,9 +38,18 @@ h2 {
   
 }
 
-.featured, h4 {
+.featured, h4, h1 {
   font-family: var(--font-heading);
   
+}
+
+.featured {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 36px;
 }
 
 
@@ -75,27 +84,37 @@ h2 {
 }
 
 .project-image {
-  max-width: 360px;
+  max-width: 520px;
   margin: auto;
   justify-content: center;
   align-items: center;
-  height: 240px;
+  height: 340px;
   background: #fff;
  
 
 }
 
+.row {
+padding: 10px;
+}
+
 .image-block {
   background: var(--background-color);
   border-radius: 4px;
-  height: 300px;
+  height: 400px;
+  
 
 }
 
 .project-paragraph {
   line-height: 1.75;
-  font-size: 16px;
+  font-size: 18px;
  
+}
+
+.project-text {
+  max-width: 550px;
+  margin: auto;
 }
 
 .project-links {
