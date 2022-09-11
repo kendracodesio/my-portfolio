@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Mitr:wght@200;300&family=Noto+Serif+Georgian:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-color: #0d1770b0;
+  --secondary-color:  #6a7baf; 
+  --background-color: #938cae31;
+  --font-heading:  'Noto Serif Georgian', serif;
+  --font-default: 'Farro', sans-serif;
+}
+
+body {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 200;
+
+}
+
+.intro {
+  padding-top: 230px;
+  padding-bottom: 120px;
+  background: var(--background-color); 
+ 
+}
+
+h1 {
+  font-size: 80px;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.5;
+
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: var(--font-default);
+  color: rgb(62, 62, 62);
+  
+}
+
+.featured, h4 {
+  font-family: var(--font-heading);
+  
+}
+
+
+.btn-branding {
+  padding: 12px 22px;
+  border-radius: 4px;
+  background: #fff;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  text-transform: capitalize;
+}
+
+.btn-branding:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transition: all 200ms ease-in-out;
+
+}
+
+.down-icon {
+  color: var(--primary-color);
+  margin-top: 185px;
+  font-size: 35px;
+  text-align: center;
+  display: block;
+
+}
+
+.down-icon:hover {
+  color: rgb(62, 62, 62);
+}
+
+.project-image {
+  max-width: 360px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  background: #fff;
+ 
+
+}
+
+.image-block {
+  background: var(--background-color);
+  border-radius: 4px;
+  height: 300px;
+
+}
+
+.project-paragraph {
+  line-height: 1.75;
+  font-size: 16px;
+ 
+}
+
+.project-links {
+  text-align: center;
+}
+
