@@ -11,7 +11,7 @@
 body {
   font-family: var(--font-default);
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
 
 }
 
@@ -86,9 +86,11 @@ h4 {
 
 
 .project-paragraph {
-  line-height: 1.75;
-  font-size: 16px;
+  line-height: 2;
+  font-size: 18px;
   color: rgba(62, 62, 62, 0.855);
+  text-align: justify;
+  
  
 }
 
@@ -101,7 +103,11 @@ h4 {
   
 }
 
+.dark-text {
 
+  color: var(--primary-color);
+  font-size: 18px;
+}
 
 .project-image {
   max-width: 99%;
@@ -109,6 +115,7 @@ h4 {
   background: var(--background-color);
   padding: 60px 10px 40px 10px;
   border-radius: 30px;
+  margin-bottom: 5px;
 }
 
 .project-heading {
