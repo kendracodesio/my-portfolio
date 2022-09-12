@@ -89,7 +89,7 @@ h4 {
   line-height: 2;
   font-size: 18px;
   color: rgba(62, 62, 62, 0.855);
-  text-align: justify;
+  text-align: center;
   
  
 }
@@ -119,7 +119,6 @@ h4 {
 }
 
 .project-heading {
-  
   position: relative;
   top: 55px;
 }
