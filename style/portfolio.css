@@ -23,6 +23,12 @@ body {
 
 }
 
+.work-project-headings {
+  font-family: var(--font-heading);
+  color: #000;
+  font-size: 25px;
+}
+
 .body-pages {
   margin-top: 100px;
 }
@@ -160,7 +166,7 @@ h4 {
 
 
 .about-intro {
-  color: #000;
+  color: #000 !important;
 }
 
 
@@ -171,26 +177,16 @@ h4 {
 
 
 .sup-heading {
-  margin-top: 150px;
+  margin-top: 150px !important;
 
 }
 
-.dark-text {
+.colored-text {
   color: var(--primary-color);
   font-size: 18px;
 }
 
-.project-row {
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: 0 auto;
-  display: block;
-}
 
-.project-container {
-  margin: 0 auto;
-  display: block;
-}
 
 .project-image {
   max-width: 100%;
