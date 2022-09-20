@@ -192,6 +192,12 @@ h4 {
 
 }
 
+.contact-paragraph {
+  line-height: 1.4;
+  text-align: center;
+  padding: 2px;
+}
+
 
 .about-intro {
   color: #000 !important;
@@ -245,7 +251,7 @@ footer li {
   width: 65px !important;
 }
 
- footer a {
+ .social-links a {
   padding: 3px 12px;
   font-size: 40px;
   align-items: center;
@@ -258,7 +264,7 @@ footer li {
   transition: all 150ms ease-in-out;
 }
 
-footer a:hover{
+.social-links a:hover{
   color: #fff;
   background: var(--primary-color);
 }
