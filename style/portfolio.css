@@ -8,6 +8,8 @@
   --font-default: 'Farro', sans-serif;
 }
 
+
+
 body {
   font-family: var(--font-default);
   font-size: 16px;
@@ -26,7 +28,8 @@ body {
 .work-project-headings {
   font-family: var(--font-heading);
   color: #000;
-  font-size: 25px;
+  font-size: 28px;
+  margin-top: 2em;
 }
 
 .body-pages {
@@ -68,13 +71,20 @@ h4 {
 }
 
 .navbar {
-  background: #fff ;
+  background: #fff;
   box-shadow: 0 4px 6px -6px var(--secondary-color);
 }
 
 .nav-link {
   text-transform: uppercase;
-  
+
+}
+
+.img-wrapper {
+  margin-top: -150px;
+}
+.page-bottom {
+  margin-bottom: 150px !important;
 }
 
 .active {
@@ -92,12 +102,30 @@ h4 {
   border: 1px solid var(--primary-color);
   text-transform: capitalize;
   margin-bottom: 100px;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding:hover {
   background: #fff;
   color: var(--primary-color);
-  transition: all 200ms ease-in-out;
+
+}
+
+.btn-branding-alt {
+  padding: 12px 22px;
+  border-radius: 10px;
+  background: #fff;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-transform: capitalize;
+  margin-bottom: 100px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-alt:hover {
+  background: var(--primary-color);
+  color: #fff;
 
 }
 
@@ -156,7 +184,7 @@ h4 {
 
 
 .section-paragraphs {
-  line-height: 2;
+  line-height: 1.75;
   font-size: 18px;
   color: rgba(62, 62, 62, 0.855);
   text-align: left;
@@ -186,7 +214,60 @@ h4 {
   font-size: 18px;
 }
 
+footer {
+  background: var(--background-color);
+  padding-top: 50px;
+}
+.social-links {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+    
+  
+}
 
+footer ul {
+padding: 0;
+margin: 0;
+text-decoration: none;
+align-items: center;
+
+}
+
+footer li {
+  display: flex;
+  text-decoration: none;
+  width: 60px;
+  height: 30px;
+  align-items: center;
+  margin: 5px;
+  height: 65px !important;
+  width: 65px !important;
+}
+
+ footer a {
+  padding: 3px 12px;
+  font-size: 40px;
+  align-items: center;
+  background: var(--background-color);
+  color: var(--primary-color);
+  border: .5px solid var(--primary-color);
+  border-radius: 10%;
+  height: 65px !important;
+  width: 65px !important;
+  transition: all 150ms ease-in-out;
+}
+
+footer a:hover{
+  color: #fff;
+  background: var(--primary-color);
+}
+
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
 
 .project-image {
   max-width: 100%;
@@ -195,28 +276,42 @@ h4 {
   padding: 60px 10px 40px 10px;
   border-radius: 30px;
   margin-bottom: 5px;
+
 }
 
 .project-image-work {
-  max-width: auto;
+  max-width: 90%;
   height: auto;
-  background: var(--background-color);
-  padding: 60px 10px 40px 10px;
-  border-radius: 30px;
   margin: auto;
-  margin-bottom: 5px;
+  border-radius: 30px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
+}
+
+.row-odd {
+  background: #fff;
+
+}
+
+.row-even {
+  background: var(--background-color);
 }
 
 .project-heading {
   position: relative;
   top: 55px;
+
 }
 
-@media (max-width: 1000px) {
-  h4 {
-    font-size: 30px;
-  }
+
+
+
+@media (max-width: 1197px) {
+
 
   .git-link {
     margin-bottom: 40px;
@@ -225,6 +320,11 @@ h4 {
   .h1-supplement-page {
     font-size: 40px;
   }
+
+  .project-links {
+    margin-top: 50px !important;
+  }
+
 }
 
 @media (max-width: 700px) {
@@ -241,8 +341,18 @@ h4 {
 
   .about-intro {
     padding-bottom: 0;
-
   }
+
+  .work-project-headings {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    font-size: 28px;
+  }
+
+  .main-row-about {
+    margin-top: -30px !important;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -261,21 +371,14 @@ h4 {
     font-size: 35px;
   }
 
-  h4 {
-    font-size: 25px;
-  }
 
   .h1-supplement-page {
     font-size: 32px;
   }
 
   .container {
-    padding: 25px;
+    padding: 30px;
   }
-
- .project-row {
-   padding: 0;
- }
 
   .project-heading {
     top: 40px;
@@ -283,18 +386,18 @@ h4 {
   }
 
   .project-links {
-    display: inline;
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 
-  .site-link,
-  .git-link {
-    display: block;
-  }
+
 
   .git-link {
     position: relative;
     top: 30px;
-    margin-bottom: 40px
+
+
   }
 
 }
