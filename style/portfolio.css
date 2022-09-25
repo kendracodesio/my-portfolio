@@ -18,11 +18,16 @@ body {
 }
 
 .intro {
-  padding-top: 260px;
-  padding-bottom: 150px;
+  padding-top: 240px;
+  padding-bottom: 220px;
   background: var(--background-color);
-  margin-bottom: 150px;
 
+}
+
+#projects-homepage {
+  margin-top: 0;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 .work-project-headings {
@@ -311,6 +316,8 @@ footer p {
 
 .row-even {
   background: var(--background-color);
+  flex-direction: row-reverse;
+
 }
 
 .project-heading {
