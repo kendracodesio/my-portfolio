@@ -7,6 +7,7 @@
   --background-color: #938cae31;
   --font-heading: 'Farro', sans-serif;
   --font-default: 'Noto Serif Georgian', serif;
+
 }
 
 
@@ -222,7 +223,7 @@ h4 {
   line-height: 2;
   font-size: 18px;
   color: var(--paragraph-color);
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -251,9 +252,13 @@ h4 {
 
 }
 
+.contact-box {
+  background: var(--background-color);
+}
+
 .contact-paragraph {
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
   padding: 2px;
 }
 
@@ -265,7 +270,7 @@ h4 {
 
 .project-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 
@@ -276,6 +281,7 @@ h4 {
 
 .colored-text {
   color: var(--primary-color);
+ 
 }
 
 footer {
