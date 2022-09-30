@@ -594,6 +594,12 @@ footer p {
 }
 
 @media (max-width: 500px) {
+
+  div.intro {
+
+    padding: 190px 15px 100px 15px;
+  
+  }
   h1 {
     font-size: 48px;
     line-height: 1.2;
